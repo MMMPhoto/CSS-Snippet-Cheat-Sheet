@@ -24,12 +24,14 @@ Main {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: stretch;
+    margin-top: 20px;
 }
 
 Section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     align-content: stretch;
     flex: 1 1 30%;
     margin: 10px;
@@ -42,23 +44,18 @@ Footer {
 }
 
 .card-heading {
-    flex: 1 1 30%;
     border-style: solid;
     border-color: #fff;
     border-radius: 10%;
-    margin: 0px 20px;
+    margin: -5px 0px 20px 20px;
 }
-
+ 
 .card-desc {
-    flex: 1 1 30%;
     margin: 10px;
 }
 
 .code-card {
-    flex: 1 1 30%;
-    position: relative;
-    margin-top: -40px;
     background-color: #ba39ba;
-    width: 90%;
-    height: 70%;
-}
+    width: 50px;
+    height: 40px;
+} 
