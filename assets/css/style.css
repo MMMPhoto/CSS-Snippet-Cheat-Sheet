@@ -8,7 +8,13 @@ h1, h2, h3 {
     color: #ba39ba;
 }
 
+h1 {
+    margin: 20px;
+}
+
 p {
+    font-size: 15px;
+    font-weight: 100;
     text-align: center;
 }
 
@@ -17,6 +23,7 @@ Header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 Main {
@@ -33,7 +40,8 @@ Section {
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
-    flex: 1 1 30%;
+    flex: 1 1 300px;
+    padding: 10px;
     margin: 10px;
     border-style: dashed;
     border-color: #fff;
@@ -44,17 +52,26 @@ Footer {
 }
 
 .card-heading {
+    font-size: 25px;
     border-style: solid;
     border-color: #fff;
-    border-radius: 10%;
-    margin: -5px 0px 20px 20px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+    margin: -15px 0px 10px 0px;
 }
  
 .card-desc {
+    font-weight: 200;
     margin: 10px;
 }
 
 .code-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
     width: 100%;
     height: 100%;
 }
@@ -62,8 +79,9 @@ Footer {
 .code {
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
+    height: 90%;
     background-color: #ba39ba;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px; 
     margin: 10px;
 }
