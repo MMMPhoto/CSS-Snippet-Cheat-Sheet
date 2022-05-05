@@ -12,18 +12,18 @@ h1 {
     margin: 20px;
 }
 
-p {
-    font-size: 15px;
-    font-weight: 100;
-    text-align: center;
-}
-
 Header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+}
+
+Header p {
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
 }
 
 Main {
@@ -67,21 +67,21 @@ Footer {
 }
 
 .code-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    
     width: 100%;
     height: 100%;
+    margin-bottom: 20px;
 }
 
 .code {
     font-family: 'Courier New', Courier, monospace;
-    text-align: left;
-    height: 90%;
-    background-color: #ba39ba;
-    border-radius: 10px;
-    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
     margin: 10px;
+    height: 100%;
+    background-image: linear-gradient(
+        hsl(300, 34%, 71%) 0%,
+        #652a65 100%);
+    border-radius: 10px;
 }
